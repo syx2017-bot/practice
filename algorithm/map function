@@ -1,0 +1,9 @@
+def function(n):
+        listr=[]
+        muti=1
+        sumnumber=0
+        listr=map(int,str(n))
+        for i in listr:
+            muti=muti*i
+            sumnumber=sumnumber+i
+        return muti-sumnumber
